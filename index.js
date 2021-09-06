@@ -1,35 +1,35 @@
 function plus() {
-    let a = Number(document.getElementById('number1').value);
-    let b = Number(document.getElementById('number2').value);
-    let c = null;
+    let firstNumber = Number(document.getElementById('number1').value);
+    let secondNumber = Number(document.getElementById('number2').value);
+    let resultNumber = null;
     
-    c = a + b;
-    document.getElementById('result').innerHTML = c;   
+    resultNumber = firstNumber + secondNumber;
+    document.getElementById('result').innerHTML = resultNumber   
 }
 
 function minus() {
-    let a = Number(document.getElementById('number1').value);
-    let b = Number(document.getElementById('number2').value);
-    let c = null;
+    let firstNumber = Number(document.getElementById('number1').value);
+    let secondNumber = Number(document.getElementById('number2').value);
+    let resultNumber = null;
     
-    c = a - b;    
-    document.getElementById('result').innerHTML = c;
+    resultNumber = firstNumber - secondNumber;    
+    document.getElementById('result').innerHTML = resultNumber;
 }
 
 function divide() {
-    let a = Number(document.getElementById('number1').value);
-    let b = Number(document.getElementById('number2').value);
-    let c = null;
+    let firstNumber = Number(document.getElementById('number1').value);
+    let secondNumber = Number(document.getElementById('number2').value);
+    let resultNumber = null;
     
-    c = a / b;    
-    document.getElementById('result').innerHTML = c;
+    resultNumber = firstNumber / secondNumber;    
+    document.getElementById('result').innerHTML = resultNumber;
 }
 
 function multiply() {
-    let a = Number(document.getElementById('number1').value);
-    let b = Number(document.getElementById('number2').value);
-    let c = null;
+    let firstNumber = Number(document.getElementById('number1').value);
+    let secondNumber = Number(document.getElementById('number2').value);
+    let resultNumber = null;
     
-    c = a * b;    
-    document.getElementById('result').innerHTML = c;
+    resultNumber = firstNumber * secondNumber;    
+    document.getElementById('result').innerHTML = resultNumber;
 }
